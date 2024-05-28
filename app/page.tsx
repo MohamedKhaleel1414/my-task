@@ -105,9 +105,9 @@ export default function Home() {
                 aria-label="Small"
                 valueLabelDisplay="auto"
                 sx={{ color: "#17AA9D" }}
-                onChange={(e) => {
-                  console.log(e.target?.value);
-                  setOpacity(e.target?.value);
+                onChange={(e, newVal) => {
+                  console.log(newVal);
+                  setOpacity(Number(newVal));
                 }}
               />
             </div>
@@ -121,9 +121,8 @@ export default function Home() {
                 aria-label="Small"
                 valueLabelDisplay="auto"
                 sx={{ color: "#17AA9D" }}
-                onChange={(e) => {
-                  console.log(e.target?.value);
-                  setPropotional(e.target?.value);
+                onChange={(e, newVal) => {
+                  setPropotional(Number(newVal));
                 }}
               />
             </div>
