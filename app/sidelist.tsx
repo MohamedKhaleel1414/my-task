@@ -61,11 +61,11 @@ export default function SideList() {
             <Person color={`${idx === 1 ? "white" : "#000"}`} />
           </div>
           <div
-            className={`${
+            className={`flex justify-between items-center w-full ${
               !open ? "hidden" : ""
-            } relative duration-300 flex justify-between items-center w-full`}
+            } relative duration-300`}
           >
-            <p className={``}>Agency Profile</p>
+            <p className={`${!open ? "hidden" : ""} relative duration-300`}>Agency Profile</p>
             <IconButton
               onClick={() => setOpenAcc((prevState) => !prevState)}
               className={`${!openAcc && "rotate-180"}`}
