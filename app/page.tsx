@@ -45,7 +45,7 @@ export default function Home() {
           WATER MARK
         </button>
       </div>
-      <div className="mt-8 bg-[#F9F9F9] rounded-2xl p-4">
+      <div className="mt-8 bg-[#F9F9F9] rounded-2xl p-4 w-fit">
         <p className=" font-semibold">WATER MARK</p>
         <div className="mt-4 w-full flex justify-between gap-4">
           <div className=" w-full">

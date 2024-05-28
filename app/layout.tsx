@@ -45,7 +45,7 @@ export default function RootLayout({
             </div>
           </div>
         </div>
-        <div className="flex justify-between">
+        <div className="flex justify-between overflow-scroll">
           <SideList />
           {children}
         </div>

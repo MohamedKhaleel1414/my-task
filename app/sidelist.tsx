@@ -17,7 +17,7 @@ export default function SideList() {
     <div
       className={`bg-white rounded-e-3xl shadow-lg ${
         open ? "w-[25%]" : "w-20"
-      } h-full min-h-screen p-5 pt-8 relative duration-300`}
+      } h-full min-h-screen p-2 pt-8 relative duration-300`}
     >
       <IconButton
         className={`absolute cursor-pointer -right-5 top-[100px] 
