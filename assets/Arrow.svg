@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <g filter="url(#a)">
+    <rect width="24" height="24" y="24" fill="#F9F9F9" rx="12" transform="rotate(-90 0 24)"/>
+    <rect width="23.5" height="23.5" x=".25" y="23.75" stroke="url(#b)" stroke-opacity=".48" stroke-width=".5" rx="11.75" style="mix-blend-mode:lighten" transform="rotate(-90 .25 23.75)"/>
+    <path fill="#17AA9D" fill-rule="evenodd" d="m10.052 12 4.498-4.535a.863.863 0 0 0 0-1.214.844.844 0 0 0-1.201 0L8.25 11.393a.861.861 0 0 0 0 1.214l5.099 5.142a.845.845 0 0 0 1.201 0 .863.863 0 0 0 0-1.214L10.052 12Z" clip-rule="evenodd" opacity=".8"/>
+  </g>
+  <defs>
+    <radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="rotate(45 -28.97 12) scale(33.9411 18.7083)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B86E9F"/>
+      <stop offset="1" stop-color="#662525"/>
+    </radialGradient>
+    <filter id="a" width="384" height="384" x="-180" y="-180" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="90"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1927_592"/>
+      <feBlend in="SourceGraphic" in2="effect1_backgroundBlur_1927_592" result="shape"/>
+    </filter>
+  </defs>
+</svg>
